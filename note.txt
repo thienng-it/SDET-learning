@@ -1,0 +1,11 @@
+1. When testing async code:
+    - Without "Await" --> you're working with a Promise object.
+    - With "Await" --> you're working with the real resolved value.
+
+Thus,
+    async function demo() {
+        return 42;
+    }
+
+--> demo(): returns a Promise that will eventually resolve to 42 --> Promise<42>
+--> await demo(): unwraps that Promise and gives you the actual value --> 42
