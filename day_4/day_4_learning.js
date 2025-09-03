@@ -74,7 +74,7 @@ const pizzaPromise = new Promise((resolve, reject) => {
     }
 });
 
-// Use the promise
+// Use the promise object
 pizzaPromise
     .then(message => console.log(message)) // what to do if success
     .catch(error => console.error(error)); // what to do if failure

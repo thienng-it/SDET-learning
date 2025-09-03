@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest __tests__/applyOperationFunction.test.js"
+    "test": "jest __tests__/bookSummary.test.js"
   },
   "keywords": [],
   "author": "",
